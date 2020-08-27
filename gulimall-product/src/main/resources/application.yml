@@ -5,6 +5,8 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
   datasource:
     username: root
     password: He.123456
